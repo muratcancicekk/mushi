@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Mushi</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+        h1, h2, h3 {
+            color: #1a1a1a;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+        h1 {
+            font-size: 2.2em;
+            text-align: center;
+            color: #007aff; /* iOS blue */
+        }
+        h2 {
+            font-size: 1.8em;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        h3 {
+            font-size: 1.4em;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            padding-left: 0;
+        }
+        a {
+            color: #007aff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        strong {
+            font-weight: 600;
+        }
+        .last-updated {
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+            margin-top: 30px;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                margin: 10px auto;
+                padding: 20px;
+            }
+            h1 {
+                font-size: 1.8em;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+            h3 {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy for Mushi</h1>
+        <p class="last-updated">Last Updated: July 8, 2025</p>
+
+        <p>This Privacy Policy describes how Murat Can Çiçek ("we," "us," or "our") collects, uses, and discloses your information when you use our mobile application "Mushi" (the "App").</p>
+
+        <h2>1. Information We Collect</h2>
+        <h3>a. Information You Provide Directly</h3>
+        <ul>
+            <li><strong>Contact Information:</strong> If you contact us for support or feedback, we collect your email address and any information you choose to provide in your communication.</li>
+            <li><strong>Purchase Information:</strong> If you subscribe to our premium features, your purchase is processed through Apple's App Store. We do not directly collect or store your payment information. We receive information about your subscription status from Adapty (our subscription infrastructure provider).</li>
+        </ul>
+
+        <h3>b. Information Collected Automatically (from your use of the App)</h3>
+        <ul>
+            <li><strong>Camera Access:</strong> The App uses your device's camera to capture images for bug identification. Photos are analyzed locally on your device using on-device machine learning models. <strong>These photos are NOT stored on our servers or shared with third parties without your explicit permission.</strong></li>
+            <li><strong>User History Data:</strong> For identified bugs, if you choose to save them, the following information is stored in your private user history within Firebase:
+                <ul>
+                    <li>The image of the identified bug.</li>
+                    <li>The common and scientific name of the identified bug.</li>
+                    <li>Generated information about the bug (description, habitat, size, diet, life cycle, behavior, fun fact, pest status, ecological role, citizen science note).</li>
+                    <li>Timestamp of the identification.</li>
+                </ul>
+                This history is tied to your Firebase user ID and is accessible only by you within the App.
+            </li>
+            <li><strong>Usage Data:</strong> We may collect anonymous usage data to understand how the App is used, improve its functionality, and fix bugs. This may include:
+                <ul>
+                    <li>Device type and operating system version.</li>
+                    <li>App version.</li>
+                    <li>Features accessed within the App.</li>
+                    <li>Crashes and performance data.</li>
+                </ul>
+                This data is aggregated and anonymized and does not identify you personally. We use Firebase Crashlytics and Firebase Analytics for this purpose.
+            </li>
+            <li><strong>Authentication Data:</strong> We use Firebase Authentication for user management. When you use the App, a unique user ID is generated and associated with your session. This allows us to link your history and subscription status to your account. We do not collect or store your passwords or other sensitive authentication credentials.</li>
+        </ul>
+
+        <h3>c. Information from Third-Party Services</h3>
+        <ul>
+            <li><strong>Adapty:</strong> We use Adapty for managing subscriptions and paywalls. Adapty collects data related to your in-app purchases and subscription status (e.g., active subscription, expiration date, purchase ID) to provide subscription services and analytics. For more information, please refer to Adapty's Privacy Policy: <a href="https://adapty.io/privacy/" target="_blank">https://adapty.io/privacy/</a>.</li>
+            <li><strong>Google's Gemini API:</strong> The core identification process relies on Google's Gemini API. When you capture an image for identification, that image, along with a prompt, is sent to the Gemini API for analysis. The Gemini API's use of data is governed by Google's Privacy Policy. We do not receive any personally identifiable information from Google's Gemini API related to the image analysis, only the structured textual response about the insect.</li>
+            <li><strong>Firebase (Google):</strong> We use various Firebase services including:
+                <ul>
+                    <li><strong>Firebase Authentication:</strong> For user authentication and management.</li>
+                    <li><strong>Firebase Firestore:</strong> For storing your private insect identification history.</li>
+                    <li><strong>Firebase Storage:</strong> For storing images associated with your insect identification history.</li>
+                    <li><strong>Firebase Crashlytics:</strong> For crash reporting to improve app stability.</li>
+                    <li><strong>Firebase Analytics:</strong> For anonymous usage data collection (as described above).</li>
+                </ul>
+                Firebase's use of data is governed by Google's Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a>.
+            </li>
+        </ul>
+
+        <h2>2. How We Use Your Information</h2>
+        We use the information we collect for the following purposes:
+        <ul>
+            <li>To provide and maintain the App's functionality, including identifying insects from images and displaying relevant information.</li>
+            <li>To personalize your experience, such as maintaining your identification history.</li>
+            <li>To process your subscriptions and manage access to premium features.</li>
+            <li>To improve and optimize the App's performance, features, and user experience.</li>
+            <li>To communicate with you, respond to your inquiries, and provide customer support.</li>
+            <li>To analyze usage trends and diagnose technical problems.</li>
+            <li>To comply with legal obligations.</li>
+        </ul>
+
+        <h2>3. How We Share Your Information</h2>
+        We do not sell, rent, or trade your personal information. We may share your information in the following limited circumstances:
+        <ul>
+            <li><strong>With Service Providers:</strong> We share information with the third-party service providers listed in Section 1.c (Adapty, Google's Gemini API, Firebase) solely for the purpose of operating and improving the App. These providers are contractually obligated to protect your information.</li>
+            <li><strong>For Legal Reasons:</strong> We may disclose your information if required to do so by law or in the good faith belief that such action is necessary to (a) comply with a legal obligation, (b) protect and defend our rights or property, (c) act in urgent circumstances to protect the personal safety of users of the App or the public, or (d) protect against legal liability.</li>
+            <li><strong>Business Transfers:</strong> In the event of a merger, acquisition, or sale of all or a portion of our assets, your information may be transferred as part of that transaction.</li>
+        </ul>
+
+        <h2>4. Data Retention</h2>
+        We retain your insect identification history data (images and generated information) on Firebase until you delete it from within the App. Other usage data is retained for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law.
+
+        <h2>5. Your Choices and Rights</h2>
+        <ul>
+            <li><strong>Camera Access:</strong> You can enable or disable camera access for the App at any time through your device's settings. Please note that disabling camera access will prevent you from using the insect identification feature.</li>
+            <li><strong>History Deletion:</strong> You can delete individual insect identification entries from your history within the App. This will remove the associated image and data from Firebase.</li>
+            <li><strong>Account Deletion:</strong> If you wish to delete your entire account and all associated data, please contact us at <a href="mailto:muratcancicekk@gmail.com">muratcancicekk@gmail.com</a>. We will process your request in accordance with applicable laws.</li>
+        </ul>
+        <p>Depending on your jurisdiction, you may have additional rights regarding your personal data, such as the right to access, rectify, or object to the processing of your data.</p>
+
+        <h2>6. Security</h2>
+        We are committed to protecting the security of your information. We implement reasonable technical and organizational measures to safeguard the information we collect and process. However, please be aware that no method of transmission over the internet or method of electronic storage is 100% secure.
+
+        <h2>7. Children's Privacy</h2>
+        Our App is not intended for use by children under the age of 13. We do not knowingly collect personally identifiable information from children under 13. If we become aware that we have collected personal information from a child under the age of 13 without verifiable parental consent, we will take steps to remove that information from our servers.
+
+        <h2>8. Changes to This Privacy Policy</h2>
+        We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+
+        <h2>9. Contact Us</h2>
+        If you have any questions or concerns about this Privacy Policy, please contact us:
+        <ul>
+            <li>By email: <a href="mailto:muratcancicekk@gmail.com">muratcancicekk@gmail.com</a></li>
+        </ul>
+    </div>
+</body>
+</html>
